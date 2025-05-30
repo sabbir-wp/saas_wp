@@ -1,0 +1,128 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+.hfe-has-submenu-container>.hfe-menu-item:hover{
+    background: linear-gradient(270deg, #FF0032 5.38%, #FFBC00 96.27%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-width-fixer {
+    background-image: url(/wp-content/uploads/2024/11/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.elementor-95 .elementor-element.elementor-element-9c62714 .elementor-social-icon{
+    background: linear-gradient(270deg, #FF0032 5.38%, #FFBC00 96.27%);
+}
+.elementor-6 .elementor-element.elementor-element-33c6633:not(.elementor-motion-effects-element-type-background){
+    background-position: 0 85% !important;
+}
+
+.gerdienttext span {
+    background: linear-gradient(270deg, #FF0032 5.38%, #FFBC00 96.27%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-hover-effect:hover a {
+    border-color: #FFBC00 !important;
+}
+
+span.elementor-button-icon {
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex
+        ;
+    align-items: center;
+}
+.btn-hover-effect:hover span.elementor-button-icon {
+    background: linear-gradient(270deg, #FF0032 5.38%, #FFBC00 96.27%);
+}
+.btn-hover-effect:hover span.elementor-button-icon path {
+    fill: #fff;
+}
+.btn-hover-effect span.elementor-button-content-wrapper {
+    display: flex
+        ;
+    align-items: center;
+}
+.btn-hover-effect a,.btn-hover-effect span, .btn-hover-effect svg {
+    transition: all 0.5s;
+}
+div#pricingsec:after {
+    content: url(/wp-content/uploads/2024/11/Frame-1171279187.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.tablinks {
+    position: relative;
+}
+.tabcontent li{
+    display: flex;
+}
+@media (max-width:600px){
+    div#mobolemenu {
+        position: relative;
+        top: -56px;
+    }
+    .elementor-size-sm{
+        width:100% !important
+    }
+}
+
+
+@media (max-width:768px){
+    .bottomtab {
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .bottomtab button.active:after{
+        bottom: -5px;
+    }
+    .tabcontent ul{
+        flex-direction: column;
+    }
+    .tabtitle{
+        margin: 30px 0
+    }
+    .tab.is-active .tab__content {
+        max-height: max-content;
+        z-index: 999;
+    }
+    div#layout-2 {
+        padding-left: 0px !important;
+    }
+    .banner_title {
+        gap: 25px;
+        flex-direction: column;
+    }
+    .button_wrapper {
+        justify-content: start !important;
+    }
+    .elementor-6 .elementor-element.elementor-element-33c6633:not(.elementor-motion-effects-element-type-background) {
+        background-position: 0 90% !important;
+        background-size: 36% auto;
+    }
+}

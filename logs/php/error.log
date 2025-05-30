@@ -1,0 +1,1 @@
+[23-Apr-2025 12:12:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Getweb\Local Sites\verein\app\public\wp-includes\class-wp-customize-widgets.php on line 923
